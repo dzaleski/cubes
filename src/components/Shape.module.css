@@ -1,0 +1,30 @@
+.ColoredBox {
+    background-color: red;
+    width: 45px;
+    height: 45px;
+    margin: 4px;
+}
+
+.ColoredBoxCollide {
+    background-color: blue;
+    width: 45px;
+    height: 45px;
+    margin: 4px;
+}
+
+.TransparentBox {
+    background: none;
+    background-color: transparent;
+    width: 45px;
+    height: 45px;
+    margin: 1px;
+}
+
+.Container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 160px;
+    justify-content: center;
+    align-items: center;
+}
